@@ -3,17 +3,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building from main branch'
+                echo 'Construyendo desde main branch'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing from main branch'
+                echo 'Probando desde main branch'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying from main branch'
+                echo 'Desplegando desde main branch'
             }
         }
     }
