@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Desplegando desde main branch'
+                echo 'Desplegando desde main branch con webhook'
             }
         }
     }
