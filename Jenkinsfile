@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Construyendo desde main branch'
+                echo 'Construyendo desde main branch con webhook'
             }
         }
         stage('Test') {
