@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Probando desde main branch'
+                echo 'Probando desde main branch con webhook'
             }
         }
         stage('Deploy') {
